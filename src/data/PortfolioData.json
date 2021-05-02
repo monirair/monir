@@ -1,6 +1,68 @@
 [
   {
     "id": 1,
+    "image": "./images/portfolio/panda.jpg",
+    "title": "Panda - Ecommerce website template",
+    "lang": [
+      "<span class='lang-dot html'></span>HTML",
+      "<span class='lang-dot css'></span>CSS",
+      "<span class='lang-dot bt'></span>Bootstrap"
+    ],
+    "desc": [
+      "Panda HTML5 template use CSS Grid with modern and multipurpose design you can use it as any ecommerce website.",
+      "This design is very easy to customize and all files and code has been well organized and nicely commented for easy to customize."
+    ],
+    "features": [
+      "100% Customizable",
+      "W3C Validated Code",
+      "All Modern Browser Supported",
+      "Fully Responsive and Supported Modern Devices like Mobile, Tablet, Desktop, etc.",
+      "Unique Feature cards styles",
+      "Eye Catching Design"
+    ],
+    "about": "Template design idea from Programming Hero. Source code link ",
+    "codeLink": {
+      "text": "GitHub",
+      "link": "https://github.com/monirfy/panda"
+    },
+    "liveLink": "https://monirfy.github.io/panda/",
+    "update": "15 Jan 2021",
+    "released": "11 Feb 2021",
+    "license": "MIT License"
+  },
+  {
+    "id": 2,
+    "image": "./images/portfolio/redcom.jpg",
+    "title": "Redcom - Agency website template",
+    "lang": [
+      "<span class='lang-dot html'></span>HTML",
+      "<span class='lang-dot css'></span>CSS",
+      "<span class='lang-dot bt'></span>Bootstrap"
+    ],
+    "desc": [
+      "Redcom HTML5 template use Bootstrap with modern and multipurpose design you can use it as a digital marketing, digital agency, social media expert, social media marketing, digital marketing agency, online marketing company, seo agency, seo template, media agency, marketing etc.",
+      "This design is very easy to customize and all files and code has been well organized and nicely commented for easy to customize."
+    ],
+    "features": [
+      "100% Customizable",
+      "W3C Validated Code",
+      "All Modern Browser Supported",
+      "Fully Responsive and Supported Modern Devices like Mobile, Tablet, Desktop, etc.",
+      "Unique Feature cards styles",
+      "Eye Catching Design"
+    ],
+    "about": "Redcom is free for everyone. This is link",
+    "codeLink": {
+      "text": "GitHub",
+      "link": "https://github.com/monirfy/redcom"
+    },
+    "liveLink": "https://monirfy.github.io/redcom/",
+    "update": "13 Jan 2021",
+    "released": "20 Feb 2021",
+    "license": "MIT License"
+  },
+  {
+    "id": 3,
     "image": "./images/portfolio/gridpro.jpg",
     "title": "GridPro responsive agency template",
     "lang": [
@@ -30,53 +92,33 @@
     "license": "MIT License"
   },
   {
-    "id": 2,
-    "image": "./images/portfolio/redcom.jpg",
-    "title": "Redcom - Agency website template",
+    "id": 4,
+    "image": "./images/portfolio/controlpost.jpg",
+    "title": "Control Post - Advertising agency website",
     "lang": [
-      "<span class='lang-dot html'></span>html",
-      "<span class='lang-dot css'></span>CSS"
+      "<span class='lang-dot html'></span>HTML",
+      "<span class='lang-dot css'></span>CSS",
+      "<span class='lang-dot bt'></span>Bootstrap"
     ],
     "desc": [
-      "GridPro HTML5 template use CSS Grid with modern and multipurpose design you can use it as a digital marketing, digital agency, social media expert, social media marketing, digital marketing agency, online marketing company, seo agency, seo template, media agency, marketing etc.",
-      "This design is very easy to customize and all files and code has been well organized and nicely commented for easy to customize."
+      "This website is a unique, modern and responsive. Its the perfect match any digital advertising agency. Fast loading and user friendly website.",
+      "Fully responsive you can check it out now."
     ],
     "features": [
-      "100% Customizable",
-      "W3C Validated Code",
-      "All Modern Browser Supported",
-      "Fully Responsive and Supported Modern Devices like Mobile, Tablet, Desktop, etc.",
-      "Unique Feature cards styles",
-      "Eye Catching Design"
+      "Fully responsive",
+      "Code with Bootstrap 4",
+      "Cross Browser Compatible",
+      "Font Awesome 5 pro (5500 + icons)",
+      "Sidebar Mobile navigagion"
     ],
-    "about": "Some text about project",
+    "about": "This a freelance project from freelancer.com. See the",
     "codeLink": {
-      "text": "GitHub",
-      "link": "https://google.com"
+      "text": "Project Link",
+      "link": "https://freelancer.com"
     },
-    "liveLink": "https://monirhossain/",
-    "update": "20 March 2021",
-    "released": "20 March 2021",
-    "license": "MIT License"
-  },
-  {
-    "id": 3,
-    "image": "./images/portfolio/1.jpg",
-    "title": "Dhakar chaka stact website",
-    "lang": [
-      "<span class='lang-dot html'></span>html",
-      "<span class='lang-dot css'></span>CSS"
-    ],
-    "desc": ["some tehst", "some text"],
-    "features": ["One", "tow", "three"],
-    "about": "Some text about project",
-    "codeLink": {
-      "text": "GitHub",
-      "link": "https://google.com"
-    },
-    "liveLink": "https://monirhossain/",
-    "update": "20 March 2021",
-    "released": "20 March 2021",
-    "license": "MIT License"
+    "liveLink": "http://controlpost.org/",
+    "update": "20 March 2020",
+    "released": "20 March 2020",
+    "license": "Paid"
   }
 ]

@@ -1,25 +1,50 @@
 [
   {
     "id": 1,
-    "image": "./images/portfolio/1.jpg",
-    "title": "Shebafy MERN stact website",
-    "desc": ["some tehst", "some text"],
-    "features": ["One", "tow", "three"],
-    "date": "20 April 2021",
+    "image": "./images/blog/react.jpg",
+    "title": "What And Why ReactJS",
+    "desc": [
+      "React.js is the most popular front-end JavaScript library for building Web applications. React.js or Reactjs or simply React are different ways to represent React.js. Most fortune 500 companies use Reactjs  In this article, we will learn what React.js (or simply React or Reactjs) is and why we should use Reactjs instead of other JavaScript frameworks like Angular.",
+      "<h4>What is React.js?</h4>",
+      "React.js is an open-source JavaScript library that is used for building user interfaces specifically for single-page applications. It’s used for handling the view layer for web and mobile apps. React also allows us to create reusable UI components. React was first created by Jordan Walke, a software engineer working for Facebook. React first deployed on Facebook’s newsfeed in 2011 and on Instagram.com in 2012.",
+      "React allows developers to create large web applications that can change data, without reloading the page. The main purpose of React is to be fast, scalable, and simple. It works only on user interfaces in the application. This corresponds to the view in the MVC template. It can be used with a combination of other JavaScript libraries or frameworks, such as Angular JS in MVC.",
+      "<h4>React.js Features</h4>"
+    ],
+    "features": [
+      "React.js is declarative",
+      "React.js is simple",
+      "React.js is component based",
+      "React.js supports server side",
+      "React.js is extensive",
+      "React.js is fast ",
+      "React.js is easy to learn"
+    ],
+    "date": "02 May 2021",
     "mediumLink": "https://medium.com"
   },
   {
     "id": 2,
-    "image": "./images/portfolio/1.jpg",
-    "title": "Shebafy MERN stact website",
-    "desc": ["some tehst", "some text"],
-    "features": ["One", "tow", "three"],
-    "date": "20 April 2021"
+    "image": "./images/blog/ts.jpg",
+    "title": "Benefits Of Using TypeScript",
+    "desc": [
+      "This article will explain the benefits if we use Typescript in our project. Basically, you definitely know what Typescript is if you are a javascript developer. So if you are confused about what Typescript is and why  we use it when we have already javascript available which is fulfilling all our needs, let'slook in detail.",
+      "<h4>What is TypeScript?</h4>",
+      "Typescript is an Open source programming language developed and maintained by Microsoft. It is designed for the development of large-scale applications and the most important difference between Typescript and Javascript is that they are two different programming languages, though Typescript is heavily based on Javascript. In simple people use to call it as Typescript is a superset of Javascript It means that all valid code is written in Javascript is also valid in Typescript as well.",
+      "<h4>Benefits of using Typescript in your project </h4>",
+      "As we all know, Javascript has no types. So it's hard to control all the parameters and variables that we are using and validate them. Since TypeScript is like Javascript but with Types. It helps make our code easier to read and avoid errors.",
+      "<h4>Features </h4>"
+    ],
+    "features": [
+      "Cross-Platform and Cross browser Compatability",
+      "TypeScript is a strict superset of ECMAScript 2015",
+      "IDE Support"
+    ],
+    "date": "0 April 2021"
   },
   {
     "id": 3,
     "image": "./images/portfolio/1.jpg",
-    "title": "Shebafy MERN stact website",
+    "title": "Welcome to my website",
     "desc": ["some tehst", "some text"],
     "features": ["One", "tow", "three"],
     "date": "20 April 2021"

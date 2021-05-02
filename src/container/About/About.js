@@ -43,10 +43,10 @@ const About = () => {
                     <span className='lang-dot  js'></span> JavaScript
                   </li>
                   <li>
-                    <span className='lang-dot  js'></span> MongoDB
+                    <span className='lang-dot  mdb'></span> MongoDB
                   </li>
                   <li>
-                    <span className='lang-dot  js'></span> Sass
+                    <span className='lang-dot  sass'></span> Sass
                   </li>
                 </ul>
 
