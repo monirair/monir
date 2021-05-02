@@ -38,7 +38,7 @@
   font-size: 12px;
   font-weight: 600;
   margin: 0 15px 0px 0;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 .lang-dot {
@@ -51,5 +51,26 @@
 }
 
 .lang-dot.html {
-  background-color: red !important;
+  background-color: #e34c26 !important;
+}
+.lang-dot.css {
+  background-color: #563d7c !important;
+}
+.lang-dot.sass {
+  background-color: #a53b70 !important;
+}
+.lang-dot.js {
+  background-color: #f1e05a !important;
+}
+.lang-dot.php {
+  background-color: #4f5d95 !important;
+}
+.lang-dot.ts {
+  background-color: #2b7489 !important;
+}
+.lang-dot.wp {
+  background-color: #207196 !important;
+}
+.lang-dot.react {
+  background-color: #61dafb !important;
 }

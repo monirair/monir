@@ -18,7 +18,7 @@ const PortolioDetailsContainer = ({ data }) => {
               <img
                 src={`${process.env.PUBLIC_URL}/${data.image}`}
                 alt={data.title}
-                className='img-fluid rounded'
+                className='img-fluid rounded shadow'
               />
             </div>
           </div>
@@ -34,6 +34,7 @@ const PortolioDetailsContainer = ({ data }) => {
                     <p key={i} dangerouslySetInnerHTML={{ __html: value }} />
                   );
                 })}
+                <h4>Featurs</h4>
                 <ul className='features'>
                   {data.features.map((value, i) => {
                     return (
@@ -52,7 +53,9 @@ const PortolioDetailsContainer = ({ data }) => {
                 <div className='mb-30'>
                   <h5>About</h5>
                   {data.about}{' '}
-                  <a href={data.codeLink.link}>{data.codeLink.text}</a>
+                  <a href={data.codeLink.link} target='_blank' rel='noreferrer'>
+                    {data.codeLink.text}
+                  </a>
                 </div>
                 <div className='mb-30'>
                   <h5>Update</h5>
