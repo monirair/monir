@@ -1,10 +1,13 @@
 import React from 'react';
+import Meta from '../../components/meta/Meta';
 import PageTitle from '../../components/PageTitle/PageTitle';
 import SimilarPortfolio from '../PorfolioGrid/SimilarPortfolio';
 
 const PortolioDetailsContainer = ({ data }) => {
   return (
     <>
+      <Meta title={data.title} />
+
       <PageTitle>
         <h1 className='display-1 mb-0'>{data.title}</h1>
       </PageTitle>
