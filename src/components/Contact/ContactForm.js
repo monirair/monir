@@ -11,11 +11,13 @@ function sendEmail(e) {
       'user_djGYuinKWe7ZBKADnEbsX'
     )
     .then(
-      (result) => {
-        console.log(result.text);
+      function (response) {
+        //console.log("SUCCESS. status=%d, text=%s", response.status, response.text);
+        alert('Email sent successfully!');
       },
-      (error) => {
-        console.log(error.text);
+      function (error) {
+        //console.log("FAILED", error);
+        alert('FAILED!' + error);
       }
     );
   e.target.reset();
