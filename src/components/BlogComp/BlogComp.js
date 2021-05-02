@@ -14,7 +14,7 @@ const BlogComp = ({ data }) => {
         <p className='mb-30'>{data.exerpt}</p>
         <div className='d-grid'>
           <Link to={`/blog/${data.id}`} className='btn btn-primary'>
-            Viw full post
+            View full post
           </Link>
         </div>
       </div>
