@@ -72,8 +72,7 @@
     z-index: 99;
     background: #fafafa;
     width: 80%;
-    height: 100%;
-    border-right: 1px solid #eee;
+    height: 100vh;
     left: -100%;
     opacity: 0;
     transition: all 0.3s ease;
@@ -83,8 +82,7 @@
     left: 0;
     opacity: 1;
     z-index: 1;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
-      rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    background-color: #222;
   }
 
   .option {
@@ -96,7 +94,7 @@
     letter-spacing: 1px;
     padding: 10px 15px;
     display: block;
-    color: #191919;
+    color: #fff;
     text-align: center;
   }
 }

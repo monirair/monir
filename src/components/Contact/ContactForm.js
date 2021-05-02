@@ -71,9 +71,9 @@ const ContactForm = () => {
                 <h5>Email</h5>
                 <p>monirair@yahoo.com</p>
               </div>
-              <div className='mb-30'>
+              <div>
                 <h5>Whatsapp</h5>
-                <p>+8801710021512</p>
+                <p className='mb-0'>+8801710021512</p>
               </div>
             </div>
           </div>
