@@ -11,6 +11,9 @@ const PortfolioComp = ({ data }) => {
       <Link to={`/portfolio/${data.id}`}>
         <LazyLoadImage
           className='img-fluid rounded'
+          effect='blur'
+          width='100'
+          min-height='400'
           src={`${process.env.PUBLIC_URL}/${data.image}`}
           alt={data.title}
           width='100%'

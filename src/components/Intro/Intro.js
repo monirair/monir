@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 const Intro = () => {
   return (
@@ -37,8 +39,11 @@ const Intro = () => {
             data-aos='fade'
             data-aos-delay='300'
           >
-            <img
+            <LazyLoadImage
               className='img-fluid'
+              effect='blur'
+              width='100'
+              min-height='400'
               src={`${process.env.PUBLIC_URL}./images/about.png`}
               alt='Monir Hossain'
             />
