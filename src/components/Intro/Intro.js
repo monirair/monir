@@ -19,12 +19,17 @@ const Intro = () => {
               manage.
             </p>
             <div data-aos='fade-up' data-aos-delay='500'>
-              <Link to='/portfolio' className='btn btn-primary mr-20'>
+              <a
+                href='https://drive.google.com/file/d/101yDftp48pw6sVr4JsUCu_aLv4fpfsdt/view'
+                target='_blank'
+                rel='noreferrer'
+                className='btn btn-primary mr-20'
+              >
+                Download Resume
+              </a>
+              <Link to='/portfolio' className='btn btn-outline-primary'>
                 Portfolio
               </Link>
-              <a href='d' className='btn btn-outline-primary '>
-                Resume
-              </a>
             </div>
           </div>
           <div

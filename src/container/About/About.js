@@ -50,7 +50,12 @@ const About = () => {
                   </li>
                 </ul>
 
-                <a href='d' className='btn btn-primary '>
+                <a
+                  href='https://drive.google.com/file/d/101yDftp48pw6sVr4JsUCu_aLv4fpfsdt/view'
+                  target='_blank'
+                  rel='noreferrer'
+                  className='btn btn-primary'
+                >
                   Download Resume
                 </a>
               </div>
